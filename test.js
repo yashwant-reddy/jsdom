@@ -26,19 +26,30 @@ var header=document.getElementById("main-header");
 // header.style.borderBottom='solid 3px black';
 
 //getting elemnts by class name//
-var items=document.getElementsByClassName('list-group-item');
-console.log(items);
-items[1].textContent='hell';
-items[1].style.fontWeight='bold';
+// var items=document.getElementsByClassName('list-group-item');
+// console.log(items);
+// items[1].textContent='hell';
+// items[1].style.fontWeight='bold';
 //gives error
 // items.style.backgroundColor='#f4f4f4';
 
 
-for (var i =0;i<items.length;i++){
-    items[i].style.backgroundColor='#f4f4f4';
-}
+// for (var i =0;i<items.length;i++){
+//     items[i].style.backgroundColor='#f4f4f4';
+// }
 
 //get elemnts bt tag name
+// var li=document.getElementsByTagName('li');
+// console.log(li);
+// li[3].textContent='hell';
+// li[0].style.fontWeight='bold';
+
+// for (var i =0;i<li.length;i++){
+//     li[i].style.backgroundColor='#f4f4f4';
+// }
+
+//query selector
+
 
 
 
