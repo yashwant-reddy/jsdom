@@ -48,9 +48,33 @@ var header=document.getElementById("main-header");
 //     li[i].style.backgroundColor='#f4f4f4';
 // }
 
-//query selector
+// //query selector
+// var header=document.querySelector('#main-header');
+// header.style.borderBottom='solid 4px #c01';
 
 
+// var input =document.querySelector('input');
+// input.value='hello';
+
+// //css pseudoclasses
+// var submit=document.querySelector('input[type="submit"]');
+// submit.value="send";
+
+// var item=document.querySelector('.list-group-item');
+// item.style.color='red';
+
+// var lastitem=document.querySelector('.list-group-item:last-child');
+// lastitem.style.color='blue';
+
+// var seconditem = document.querySelector('.list-group-item:nth-child(2)');
+// seconditem.style.color='coral';
+
+
+//  query selector all
+
+var titles=document.querySelectorAll('.title');
+console.log(titles);
+titles[0].textContent='helllo';
 
 
 
