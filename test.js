@@ -85,3 +85,39 @@ var header=document.getElementById("main-header");
 // }
 
 //DOM 2 
+
+//query parents,siblings,child
+var itemlist=document.querySelector('#items');
+//parent node property
+// console.log(itemlist.parentNode);
+// itemlist.parentNode.style.backgroundColor='#f4f4f4';
+// console.log(itemlist.parentNode.parentNode);
+
+
+//parent element
+// console.log(itemlist.parentElement);
+// itemlist.parentElement.style.backgroundColor='#f4f4f4';
+// console.log(itemlist.parentElement.parentElement);
+
+
+// childe nodes
+// console.log(itemlist.childNodes);
+// console.log(itemlist.children);
+
+// console.log(itemlist.children[1]);
+// itemlist.children[1].style.backgroundColor='yellow';
+
+//firstchild= gives the line break
+// console.log(itemlist.firstChild);
+
+//first element child= only consider the tag elemnt
+// console.log(itemlist.firstElementChild);
+
+//firstchild= gives the line break
+// console.log(itemlist.lastChild);
+
+//first element child= only consider the tag elemnt
+// console.log(itemlist.lastElementChild);
+
+
+
