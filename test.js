@@ -72,16 +72,16 @@ var header=document.getElementById("main-header");
 
 //  query selector all
 
-var titles=document.querySelectorAll('.title');
-console.log(titles);
-titles[0].textContent='helllo';
+// var titles=document.querySelectorAll('.title');
+// console.log(titles);
+// titles[0].textContent='helllo';
 
-var odd=document.querySelectorAll('li:nth-child(odd)');
-var even=document.querySelectorAll('li:nth-child(even)');
+// var odd=document.querySelectorAll('li:nth-child(odd)');
+// var even=document.querySelectorAll('li:nth-child(even)');
 
-for(var i=0;i<odd.length;i++){
-    odd[i].style.backgroundColor='#f4f4f4';
-    even[i].style.backgroundColor='#f1f111';
-}
+// for(var i=0;i<odd.length;i++){
+//     odd[i].style.backgroundColor='#f4f4f4';
+//     even[i].style.backgroundColor='#f1f111';
+// }
 
-
+//DOM 2 
