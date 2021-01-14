@@ -120,4 +120,39 @@ var itemlist=document.querySelector('#items');
 // console.log(itemlist.lastElementChild);
 
 
+//siblings
+// console.log(itemlist.nextSibling);
 
+// console.log(itemlist.nextElementSibling);
+
+//previos sibling
+// console.log(itemlist.previousSibling);
+// console.log(itemlist.previousElementSibling);
+// itemlist.previousElementSibling.style.color='green';
+
+//creating and inserting elemnts
+
+//create element
+//create div
+
+// var newDiv=document.createElement('div');
+// newDiv.className='hello';
+// newDiv.id='hello1';
+// newDiv.setAttribute('title','hello-div');
+
+//create textnode
+// var newDivText=document.createTextNode('new world');
+
+//adding newDivText to newDiv
+// newDiv.appendChild(newDivText);
+// console.log(newDiv);
+
+
+///insert into DOM
+// var container=document.querySelector('header .container');
+// var h1=document.querySelector('header h1');
+
+// newDiv.style.fontSize='30px';
+
+
+// container.insertBefore(newDiv,h1);
