@@ -13,8 +13,8 @@
 
 
 //selectors for queries in dom
-var headerTitle=document.getElementById("header-title");
-var header=document.getElementById("main-header");
+// var headerTitle=document.getElementById("header-title");
+// var header=document.getElementById("main-header");
 // headerTitle.textContent="pitti";
 // headerTitle.innerText="itti";
 
@@ -87,7 +87,7 @@ var header=document.getElementById("main-header");
 //DOM 2 
 
 //query parents,siblings,child
-var itemlist=document.querySelector('#items');
+// var itemlist=document.querySelector('#items');
 //parent node property
 // console.log(itemlist.parentNode);
 // itemlist.parentNode.style.backgroundColor='#f4f4f4';
@@ -156,4 +156,40 @@ var itemlist=document.querySelector('#items');
 
 
 // container.insertBefore(newDiv,h1);
+
+//dom 3
+
+//event listner
+// var button=document.getElementById('button').addEventListener('click',buttonClick);
+// var button=document.getElementById('button').addEventListener('click',function(){
+    // console.log('123');
+// });//function definedd in event listner or hav a named function
+// function buttonClick(){
+//     console.log('button');
+//     document.getElementById('header-title').textContent='changed';
+//     document.querySelector('#main').style.backgroundColor='#f4f4f4';
+// }
+//passing event parameter
+// function buttonClick(e){
+ 
+// console.log(e);
+// console.log(e.target);
+// console.log(e.target.id);
+// console.log(e.target.className);
+// console.log(e.target.classList);
+
+// var output=document.getElementById('output');
+// output.innerHTML='<h3>'+e.target.id+'</h3>'
+
+// console.log(e.type);
+
+// console.log(e.offsetX)
+// console.log(e.altKey);
+// console.log(e.ctrlKey);
+// console.log(e.shiftKey);
+// }
+
+
+
+
 
